@@ -39,7 +39,7 @@ namespace APITeste.Controllers
             existente.AnoLancamento = filmeAtualizado.AnoLancamento;
             existente.Diretor = filmeAtualizado.Diretor;
             existente.Nota = filmeAtualizado.Nota;
-
+            Console.WriteLine();
             return Ok(existente);
         }
 
