@@ -7,5 +7,6 @@ namespace APITeste.Controllers
     [ApiController]
     public class FilmesController : ControllerBase
     {
+
     }
 }
